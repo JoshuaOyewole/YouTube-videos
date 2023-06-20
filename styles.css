@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+   
+}
+
+body{
+    font-size: 1.6rem;
+     font-family: 'Poppins', sans-serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     background-color: #F5F6F7;
+}
+/* UTILITY CLASSES */
+h2, h3,h4{
+    font-weight: 600;
+}
+p{
+    font-weight: 300;
+}
+ul{
+    list-style-type: none;
+}
+.mt-m{
+    margin-top: 2rem;
+}
+.flex{
+    display: flex;
+}
+.col{
+    flex-direction: column;
+}
+.gap-y-m{
+    row-gap: 2rem;
+}
+
+/*END OF UTILITY CLASSES */
+
+.movie_card{
+    width: 65vw;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 4rem 6rem;
+}
+.movie_card:hover{
+    box-shadow: 1px 1px 5px #333;
+    transition: all 2s ease;
+}
+.card_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+.card_sub-title{
+    color: #1a5794;
+    font-weight: 500;
+    margin-top: -.5rem;
+}
+.card_rating span{
+    color: #1a5794;
+    font-weight: 600;
+}
+.movie-container{
+    display: flex;
+    justify-content: space-between;
+}
+.movie_cover{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    row-gap: 2rem;
+}
+
+.movie_cover img{
+    width: 100%;
+}
+.movie_details{
+    flex-basis: 65%;
+}
+.movie_production{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.movie_production a{
+    text-decoration: none;
+    color: #2669ac;
+    font-size: 1.4rem;
+}
+.cta_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta_btn{
+    border-radius: 2rem;
+    padding: .5rem 2rem;
+    border: none;
+    border: 1px solid #333;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    background: transparent;
+}
+.cta_section--left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 30%;
+}
+.cta_section--right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta_btn--primary{
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 2rem;
+    padding: .5rem 1.5rem;
+    transition: all 0.5s ease-in;
+}
+.cta_btn:hover{
+    background-color: #333;
+    color: #fff;
+    transition: all 0.5s ease-in;
+}
+.cta_link {
+    margin-top: 2.4rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.cta_link button{
+    border-radius: 4rem;
+    border: none;
+    padding: 1rem 2rem;
+    background-color: #F55343;
+    color: #F5F6F7;
+}
